@@ -32,8 +32,6 @@ public class MyActivity extends Activity {
         // Get ListView object from xml
         listView = (ListView) findViewById(R.id.listView);
 
-
-
         mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         List<Sensor> deviceSensors = mSensorManager.getSensorList(Sensor.TYPE_ALL);
 
